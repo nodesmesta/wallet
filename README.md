@@ -35,28 +35,13 @@ If the repository has a `requirements.txt` file, install the necessary dependenc
 pip3 install -r requirements.txt
 ```
 
-### 4. Prepare the Input File
 
-Ensure the `wallets.json` file is present in the root directory of the repository. If not, copy your JSON file into the directory:
-
-```bash
-cp /path/to/your/wallets.json ./
-```
-
-### 5. Run the Application
+### 4. Run the Application
 
 Run the script to process the JSON file and generate the `wallet.txt` output:
 
 ```bash
 python3 wallet.py
-```
-
-### 6. Verify the Output
-
-Check the generated `wallet.txt` file:
-
-```bash
-cat wallet.txt
 ```
 
 The file will display the wallet addresses and private keys in the format:
